@@ -1,0 +1,151 @@
+:root {
+    --backgroud-color: #fff;
+    --header-height: 102px;
+    --header-background-color: rgba(0,0,0,0.18);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body  {
+    /* font-size: 1.4rem;
+    line-height: 1.4rem; */
+    font-weight: normal;
+    letter-spacing: 1px;
+    animation: all linear 0.3s;
+}
+
+/* Animation */
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes background {
+    from {
+        filter: opacity(0);
+    }
+    to {
+        filter: opacity(1);
+    }
+}
+
+/* Title */
+
+.title__wrapper {
+    margin: 60px 0 34px;
+}
+
+.sub__title {
+    color: #9a9a9a;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.main__title {
+    color: #555555;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    letter-spacing: 0px;
+}
+
+.main__title span {
+    text-decoration: underline #1bbc9b;
+}
+
+/* Wrapper */
+.wrapper {
+    position: relative;
+    margin: 15px 0;
+}
+
+/* Note */
+.note {
+    position: absolute;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    padding: 3px 5px;
+    right: 0;
+    letter-spacing: 2px;
+}
+
+/* Background color */
+.red__background {
+    background-color: #f76570 !important;
+}
+
+.blue__background {
+    background-color: #14b9d5 !important;
+}
+
+.green__background {
+    background-color: #1bbc9b !important;
+}
+
+.linear__background-yellow {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%) !important;
+}
+
+.linear__background-red {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%) !important;
+}
+
+.linear__background-purple {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%) !important;
+}
+
+.linear__background-green {
+    background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%) !important;
+}
+
+.linear__background-orange {
+    background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%) !important;
+}
+
+.linear__background-blue {
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%) !important;
+}
+
+.orange__text-decoration {
+    text-decoration: underline #f3a46b !important;
+}
+
+/* Close-icon */
+
+.close__icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close__icon-img {
+    width: 25px;
+}
+
+
+.padding__bottom-200 {
+    padding-bottom: 200px !important;
+}
+
+
