@@ -206,6 +206,10 @@
 /* Mobile */
 @media (max-width: 739px) {
 
+    .app {
+        -webkit-tap-highlight-color: transparent;
+    }
+
     .hide-on-mobile {
         display: none;
     }
