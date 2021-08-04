@@ -85,6 +85,7 @@
 
 .header__icon-bars-img {
     width: 25px;
+    cursor: pointer;
 }
 
 
@@ -484,6 +485,7 @@
     text-decoration: none;
     color: #14b9d5;
     font-size: 1.4rem;
+    line-height: 2rem;
     letter-spacing: 1px;
     display: block;
 }
